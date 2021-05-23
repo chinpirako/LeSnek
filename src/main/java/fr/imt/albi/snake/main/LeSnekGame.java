@@ -6,6 +6,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 
 public class LeSnekGame extends JFrame {
+	
     public LeSnekGame() {
         initUI();
     }
@@ -14,7 +15,7 @@ public class LeSnekGame extends JFrame {
         add(new Board());
         setResizable(false);
         pack();
-        setTitle("Snake");
+        setTitle("LeSnek");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
